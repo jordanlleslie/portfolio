@@ -35,7 +35,7 @@
   --line-height-small: 1.2;
 
   --black: #000;
-  --green: #2a734b;
+  --purple: #757bc8;
   --white: #f0e9f2;
   --white-1: #e5e5e6da;
 
@@ -149,7 +149,7 @@ h2::after {
   display: block;
   height: 2px;
   width: 10rem;
-  background: var(--green);
+  background: var(--purple);
   margin: var(--gutter-small) 0;
 }
 
@@ -200,7 +200,7 @@ a {
 
 button:focus,
 a:focus {
-  outline: 2px solid var(--green);
+  outline: 2px solid var(--purple);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -209,7 +209,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-  color: var(--green);
+  color: var(--purple);
 }
 
 .btn {
@@ -218,7 +218,7 @@ body:not(.user-is-tabbing) a:focus {
   padding: 1rem 4.2rem;
   text-decoration: none;
   color: inherit;
-  border: 1px solid var(--green);
+  border: 1px solid var(--purple);
   font-weight: 400;
 }
 
@@ -242,24 +242,24 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
   right: 0;
-  background: var(--green);
+  background: var(--purple);
 }
 
-/* .text--green {
-  color: var(--green);
+/* .text--purple {
+  color: var(--purple);
 } */
 
-.btn--green {
-  background: var(--green);
+.btn--purple {
+  background: var(--purple);
   transition: all 0.2s;
 }
 
-.btn--green::after {
+.btn--purple::after {
   display: none;
 }
 
-.btn--green:hover,
-.btn--green:focus {
+.btn--purple:hover,
+.btn--purple:focus {
   background: transparent;
 }
 
@@ -269,7 +269,7 @@ body:not(.user-is-tabbing) a:focus {
   padding: 0.6rem;
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid var(--green);
+  border-bottom: 1px solid var(--purple);
 }
 
 .link__text::after {
@@ -292,7 +292,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
   right: 0;
-  background: var(--green);
+  background: var(--purple);
 }
 
 .link__text span {
@@ -311,7 +311,7 @@ body:not(.user-is-tabbing) a:focus {
   align-items: center;
   height: 5.5rem;
   width: 5.5rem;
-  background-color: var(--green);
+  background-color: var(--purple);
   border-radius: 50%;
   z-index: 10;
   visibility: hidden;
@@ -393,13 +393,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-  color: var(--green);
+  color: var(--purple);
 }
 
 .nav__link:hover::after {
   right: 0;
   height: 2px;
-  background: var(--green);
+  background: var(--purple);
 }
 
 /* --------------------------------------- */
@@ -407,7 +407,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url("./images/header.jpg");
   height: 100vh;
   background-size: cover;
