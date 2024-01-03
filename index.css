@@ -245,6 +245,10 @@ body:not(.user-is-tabbing) a:focus {
   background: var(--green);
 }
 
+/* .text--green {
+  color: var(--green);
+} */
+
 .btn--green {
   background: var(--green);
   transition: all 0.2s;
